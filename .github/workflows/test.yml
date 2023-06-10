@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sarisia/workflows/.github/workflows/update-devcontainer.yml@9a74fe45406b8c76b3bb8d6536bb41c59e061c0e
