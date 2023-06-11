@@ -1,0 +1,6 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    uses: sarisia/workflows/.github/workflows/update-devcontainer.yml@update-devcontainer-20230419-0
